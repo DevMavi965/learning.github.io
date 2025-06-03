@@ -3,14 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "dev": "vite",
-    "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+ "scripts": {
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "dev": "vite",
+  "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist -r https://github.com/DevMavi965/learning.github.io.git"
+}
+
+,
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "^19.1.0",
